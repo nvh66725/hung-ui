@@ -1,0 +1,33 @@
+{
+  "name": "hung-ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-typescript": "^12.1.1",
+    "eact": "^0.0.1-security",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "rollup": "^4.28.1",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0 || ^18.0.0",
+    "react-dom": "^19.0.0 || ^18.0.0"
+  }
+}
