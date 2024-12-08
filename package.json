@@ -1,7 +1,8 @@
 {
   "name": "hung-ui",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
